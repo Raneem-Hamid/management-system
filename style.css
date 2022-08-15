@@ -1,0 +1,36 @@
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration-line: none;
+
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #272727;
+     margin-bottom: 0%;
+}
+
+footer .div1 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 200px 10px;
+}
+
+footer div {
+    color: yellowgreen;
+    display: flex;
+justify-content: center;
+
+}
