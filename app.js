@@ -8,7 +8,7 @@ function employee(ID, fullname, department, level) {
 
 }
 
-let employee1 = new employee(1000, " Ghazi samer ", "Administration", "Senior")
+let employee1 = new employee(1000, " Ghazi samer ", "Administration", "Senior");
 let employee2 = new employee(1001, "Lana Ali", "Finance", "Senior");
 let employee3 = new employee(1002, "Tamara Ayoub", "Marketing", "Senior");
 let employee4 = new employee(1003, "Safi Walid", "Administration", "Mid-Senior");
@@ -64,3 +64,116 @@ console.log(test7);
 
 
     // console.log( Math.floor( ( Math.random() * myEndPattern ) + 1 ) );
+    //******************************************************************************* */
+    const main=document.querySelector("main")
+
+    const table=document.createElement ("table"); 
+    main.appendChild(table);
+    
+    const thead=document.createElement ("thead");
+    table.appendChild(thead);
+
+    let th1=document.createElement("th");
+    thead.appendChild(th1);
+    th1.textContent="Employee ID";
+
+    let th2=document.createElement("th");
+    thead.appendChild(th2);
+    th2.textContent="Full Name";
+
+    let th3=document.createElement("th");
+    thead.appendChild(th3);
+    th3.textContent="Department";
+
+    let th4=document.createElement("th");
+    thead.appendChild(th4);
+    th4.textContent="Level";
+
+    let th5=document.createElement("th");
+    thead.appendChild(th5);
+    th5.textContent="Salary";
+
+    let row1= document.createElement("tr");
+    table.appendChild(row1);
+
+    
+    for (let i=0 ; i<test1.length;i++ ) {
+    const column1= document.createElement("td");
+    row1.appendChild(column1);
+    column1.textContent= test1[i];
+
+    }
+    
+
+    
+    let row2= document.createElement("tr");
+    table.appendChild(row2);
+
+    
+    for (let i=0 ; i<test2.length;i++ ) {
+    const column2= document.createElement("td");
+    row2.appendChild(column2);
+    column2.textContent= test2[i];
+
+    }
+
+
+    
+    let row3= document.createElement("tr");
+    table.appendChild(row3);
+
+    
+    for (let i=0 ; i<test3.length;i++ ) {
+    const column3= document.createElement("td");
+    row3.appendChild(column3);
+    column3.textContent= test3[i];
+
+    }
+
+    
+    let row4= document.createElement("tr");
+    table.appendChild(row4);
+
+    
+    for (let i=0 ; i<test4.length;i++ ) {
+    const column4= document.createElement("td");
+    row4.appendChild(column4);
+    column4.textContent= test4[i];
+
+    }
+
+    
+    let row5= document.createElement("tr");
+    table.appendChild(row5);
+
+    
+    for (let i=0 ; i<test5.length;i++ ) {
+    const column5= document.createElement("td");
+    row5.appendChild(column5);
+    column5.textContent= test5[i];
+
+    }
+
+     
+    let row6= document.createElement("tr");
+    table.appendChild(row6);
+
+    
+    for (let i=0 ; i<test6.length;i++ ) {
+    const column6= document.createElement("td");
+    row6.appendChild(column6);
+    column6.textContent= test6[i];
+
+    }
+
+     
+    let row7= document.createElement("tr");
+    table.appendChild(row7);
+
+    
+    for (let i=0 ; i<test7.length;i++ ) {
+    const column7= document.createElement("td");
+    row7.appendChild(column7);
+    column7.textContent= test7[i];
+
+    }

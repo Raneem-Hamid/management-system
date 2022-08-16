@@ -3,33 +3,53 @@ nav ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color:rgb(184, 178, 178);
+    height: 50px;
+    margin: 0px;
+   
 }
 
 nav ul li a {
     color: black;
     text-decoration-line: none;
+    margin: 10px;
+    display: flex;
+    
 
 }
 
 a:hover {
     color: blueviolet;
 }
+main{
+    height: 520px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(235, 226, 226);
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+    }
 
 footer {
     display: flex;
     flex-direction: column;
     background-color: #272727;
-     margin-bottom: 0%;
+     margin:0px;
+     background-color:rgb(184, 178, 178);
+    justify-content: center;
 }
 
 footer .div1 {
     display: flex;
     justify-content: space-around;
     padding: 20px 200px 10px;
+    
 }
 
 footer div {
-    color: yellowgreen;
     display: flex;
 justify-content: center;
 
